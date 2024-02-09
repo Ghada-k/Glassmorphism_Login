@@ -119,7 +119,7 @@ body::before{
     content: "";
     position: absolute;
     inset: 0;
-    background: url(/img/login1.jpg);
+    background: url(/img/Login.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -128,7 +128,7 @@ body::after{
     content: "";
     position: absolute;
     inset: 0;
-    background: url(/img/signup.jpg);
+    background: url(/img/Signup.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -185,7 +185,7 @@ body.signup .container{
     content: '';
     position: absolute;
     inset: 5px;
-    background: url(/img/login1.jpg);
+    background: url(/img/Login.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -195,7 +195,7 @@ body.signup .container{
     content: '';
     position: absolute;
     inset: 5px;
-    background: url(/img/login1.jpg);
+    background: url(/img/Login.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
