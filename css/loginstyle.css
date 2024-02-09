@@ -164,6 +164,9 @@ body.signup .container{
     border-radius: 20px;
     animation: animate 2.5s linear infinite;
 }
+body.signup .container::before{
+    filter: hue-rotate(140deg);
+}
 @property --a
 {
     syntax: "<angle>";
@@ -201,6 +204,14 @@ body.signup .container{
     background-position: center;
     filter: blur(15px);
 }
+body.signup  .container span::before, 
+body.signup .container span::after{
+    background: url(/img/Login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px);  
+}
 form{
     position: absolute;
     left: 0;
@@ -211,6 +222,9 @@ form{
     width: 100%;
     gap: 15px;
     transition: 0.5s;
+}
+body.signup form#signinform{
+    left: -100%;
 }
 form h2{
     position: relative;
