@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-
 body::before{
     content: "";
     position: absolute;
@@ -65,23 +63,21 @@ body.signup .container::before{
     filter: hue-rotate(140deg);
     
 }
-@property --a
-{
+@property --a{
     syntax: "<angle>";
     inherits: false;
     initial-value: 0deg;
 }
-@keyframes animate {
+@keyframes animate{
     0%{--a: 0deg}
     100%{--a:360deg}
-            }
-
+            
+}
 .container span{
     position: absolute;
     inset: 5px;
     overflow: hidden;
     border-radius: 15px;
-  
 }
 .container span::before{
     content: '';
@@ -110,7 +106,6 @@ body.signup .container span::after{
     background-size: cover;
     background-position: center;
     filter: blur(15px); 
-    
 }
 form{
     position: absolute;
@@ -134,7 +129,7 @@ body.signup form#signupform{
 }
 form h2{
     position: relative;
-    color: #ffffff;
+    color: #0d4523;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -143,14 +138,12 @@ form .inputBox{
     width: 70%;
     display: flex;
     justify-content: space-between;
-
 }
 form .inputBox_group{
     position: relative;
     width: 70%;
     display: flex;
     justify-content: space-between;
-
 }
 form .inputBox_group a{
     color:#ffffff;
@@ -168,10 +161,9 @@ form .inputBox input{
     padding: 6px 15px;
     border-radius: 4px;
     font-size: 0.85em;
-    color: #ffffff;
+    color: #000000;
 }
-form .inputBox input::placeholder
-{
+form .inputBox input::placeholder{
     color:rgba(255, 255, 255,0.5);
 }
 form .inputBox input[type= "submit"]{
@@ -179,7 +171,14 @@ form .inputBox input[type= "submit"]{
     font-weight: 500;
     cursor: pointer;
 }
+form .inputBox input[type= "submit"]:hover{
+    background-color: #0b83e6;
+    
+}
 form#signupform  .inputBox input[type="submit"] {
+    background: #068f43;
+}
+form#signupform  .inputBox input[type="submit"]:hover{
     background: #07572b;
 }
 form#signupform b{
